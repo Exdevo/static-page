@@ -1,0 +1,53 @@
+/* .div--photo{
+    width: 200px;
+    border-radius: 18px;
+}
+.div--photo1{
+    width: 40px;
+    margin-right: 20px;
+    padding: 2px;
+}
+.div1{
+    display: flex;
+    align-items: center;
+}
+.span{
+    font-weight: bolder;
+} */
+main{
+    padding: 36px;
+}
+ .nav{
+     display: flex;
+     align-items: center;
+     background-color: green;
+     color: white;
+     font-family: "poppins",sans-serif;
+     /* font-weight: bolder; */
+     /* font-size: 10px; */
+ }
+ .nav--image{
+      width: 50px;
+      margin-right: 4px;
+    }
+    .header{
+        margin-right: auto;
+    }
+    .form{
+        display: grid;
+        grid-template: 40px 40px /1fr 1fr;
+        gap: 10px;
+    }
+    .form--button{
+        grid-column: 1 / -1;
+        background-color: purple;
+        color: white;
+        border: navajowhite;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    .form--input{
+        text-indent: 3px;
+        /* font-family: "Karla", sans-serif; */
+
+    }

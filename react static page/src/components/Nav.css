@@ -1,0 +1,87 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #21222A; */
+}
+.nav--photo{
+    width: 40px;
+    border-radius: 10px;
+    
+}
+.section--image{
+    width: 100%;
+    position: static;
+    height: 100%;
+    border-radius: 100px;
+}
+.section{
+  /* margin: 15px; */
+ margin-top: auto;
+ background-color: #21222A;
+}
+.section-details{
+    margin-left: 700px;
+    position: relative;
+    font-size: medium;
+    font-weight: 800;
+    color: teal;
+
+    
+}
+/* .div--1{
+    background-color: black;
+} */
+.section--details{
+    color: white;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+   
+}
+
+.button-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-right: 20px;
+    border-radius: 6px;
+    height: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.but--image{
+    width: 15px;
+    margin-right: 5px;
+}
+
+.main{
+    color: white;
+}
+.main--div{
+    padding-bottom: 100px;
+}
+.main--header{
+    color: teal;
+    padding-bottom: 100px;
+}
+.footer{
+    display: flex;
+    padding-top: 30px;
+    cursor: pointer;
+    background-color: #21222A;
+    height: 50px;
+}
+.heading{
+color: white;
+}
+.footer--images{
+
+    /* width: 40px; */
+    margin-right: 500px;
+    margin-left: 50px;
+    
+}
